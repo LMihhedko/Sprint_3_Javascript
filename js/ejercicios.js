@@ -1,9 +1,9 @@
-//Ejercicio 6 
+//Ejercicio 7 
 
-let phrase = 'Tinc un cotxe de color blau';
-let replaceBlue = phrase.replace('blau', 'verd');
-console.log(replaceBlue);
-let replaceO = phrase.replace(/o/g, 'u');
-console.log(replaceO);
+let items = ['taula', 'cadira', 'ordinador', 'llibreta'];
 
-
+for (var i = 0; i < items.length; i++) {
+    let item = items[i];
+    let position = items.indexOf(item);
+    console.log(`L'objecte ${item} està a la posició ${position}`);
+}
