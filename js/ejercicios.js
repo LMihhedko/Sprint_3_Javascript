@@ -1,9 +1,23 @@
-//Ejercicio 7 
+//Ejercicio 8 
 
-let items = ['taula', 'cadira', 'ordinador', 'llibreta'];
+window.onload=function() {
 
-for (var i = 0; i < items.length; i++) {
-    let item = items[i];
-    let position = items.indexOf(item);
-    console.log(`L'objecte ${item} està a la posició ${position}`);
-}
+    function calculadora(operador, n1, n2) {
+        if (operador == 'resta') {
+            return n1 - n2;
+        } else if (operador == 'suma') {
+            return n1 + n2;
+        }else if (operador == 'multiplicacio'){
+            return n1 * n2;
+        } else {
+            return 'Introdueix un operador vàlid';
+        }
+    }
+    
+    let resultat = calculadora('resta',40,20);
+    
+    console.log(resultat);
+    document.getElementById('resultado').value = resultat;
+    
+    }
+    
