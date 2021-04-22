@@ -1,5 +1,5 @@
-//Ejercicio 1 
-console.log('Hola Mundo');
+//Ejercicio 2
+alert('¡Me llamo Liza!');
 
 
 
