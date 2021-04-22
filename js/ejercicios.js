@@ -1,5 +1,8 @@
-//Ejercicio 2
-alert('¡Me llamo Liza!');
+//Ejercicio 3
+let nombre = 'Liza';
+let apellido = 'Mihhedko';
+
+console.log(`${nombre} ${apellido}`);
 
 
 
