@@ -1,27 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .container {
-            margin:auto;
-            width:200px;
-        }
-
-        input {
-            margin-top:10px;
-        }
-
-    </style>
+	<title></title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="js/ejercicios.js"></script>
 </head>
 <body>
-    <div class = 'container'>
-        <label>Resultat:</label>
-        <input id = 'resultado' type='text' value = '' >
-    </div>
+	<div class='wraper'>
+        <div class='phone'>
+            <div class="upper-part">
+                <div class="audio"></div>
+            </div>
+            <div class="screen">
+	            <!-- calculadora -->
+                <form name="calculator">
+                        <input type="text" id="resultado" disabled value=''>
+                    <div class="keys-wrapper">
+                        <input type="button" class='borrar grey' value="C">
+                        <input type="button" value="" class='valores grey'>
+                        <input type="button" value="" class='valores grey'>
+                        <input type="button" value="+" class='valores pink'>
+                        <input type="button" value="7" class='valores grey'>
+                        <input type="button" value="8" class='valores grey'>
+                        <input type="button" value="9" class='valores grey'>
+                        <input type="button" value="/" class='valores pink'>
+                        <input type="button" value="4" class='valores grey'>
+                        <input type="button" value="5" class='valores grey'>
+                        <input type="button" value="6" class='valores grey'>
+                        <input type="button" value="*" class='valores pink'>
+                        <input type="button" value="1" class='valores grey'>
+                        <input type="button" value="2" class='valores grey'>
+                        <input type="button" value="3" class='valores grey'>
+                        <input type="button" value="-" class='valores pink'>
+                        <input type="button" value="." class='valores grey'>
+                        <input type="button" value="0" class='valores grey'>
+                        <input type="button" class='total pink' value="=">
+                    </div>
+                </form>
+            </div>
+
+            <div class="phone-buttons">
+                <span class="home"></span>
+            </div>
+        </div>
+	</div>
 </body>
-</html>
+</html> 
